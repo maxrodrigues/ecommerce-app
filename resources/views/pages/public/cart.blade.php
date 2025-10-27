@@ -140,7 +140,7 @@
                         </div>
                     </div>
                     <div class="bg-primary w-full rounded-md text-white font-semibold py-2 text-center">
-                        <a href="#">
+                        <a href="{{ route('checkout') }}">
                             Proceed to Checkout
                         </a>
                     </div>
