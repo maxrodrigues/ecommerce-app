@@ -139,9 +139,11 @@
                             <p class="text-xs text-lime-700">Taxes and shipping calculate at checkout</p>
                         </div>
                     </div>
-                    <a href="#" class="bg-primary w-full rounded-md text-white font-semibold py-2">
-                        Proceed to Checkout
-                    </a>
+                    <div class="bg-primary w-full rounded-md text-white font-semibold py-2 text-center">
+                        <a href="#">
+                            Proceed to Checkout
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
