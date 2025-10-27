@@ -31,9 +31,18 @@
                 />
             </div>
             <div class="flex items-center space-x-5">
-                <div class="space-x-4">
-                    <i class="fa-solid fa-heart text-red-700 text-xl"></i>
-                    <i class="fa-solid fa-cart-shopping text-xl"></i>
+                <div class="flex space-x-4">
+                    <div>
+                        <i class="fa-solid fa-heart text-red-700 text-xl"></i>
+                    </div>
+                    <div class="relative inline-flex items-center">
+                        <a href="{{ route('cart') }}">
+                            <i class="fa-solid fa-cart-shopping text-xl"></i>
+                        </a>
+                        <div class="bg-primary text-white rounded-full text-sm absolute -top-2 -end-2 h-5 w-5 inline-flex items-center justify-center font-semibold">
+                            3
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <div>
