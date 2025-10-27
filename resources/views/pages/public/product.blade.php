@@ -70,8 +70,8 @@
                 </div>
             </div>
         </div>
-        <x-products.related />
         <x-products.reviews />
+        <x-products.related />
     </div>
     <x-footer />
 </x-layouts.app>
