@@ -8,4 +8,8 @@ Route::get('/', function () {
 
 Route::get('/product', function () {
     return view('pages.public.product');
-});
+})->name('product');
+
+Route::get('/cart', function () {
+    return view('pages.public.cart');
+})->name('cart');
