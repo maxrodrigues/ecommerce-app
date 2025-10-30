@@ -1,10 +1,13 @@
-# 🛒 Ecommerce App
+# 🛒 Ecommerce App - FreshMart
+
+Um sistema de e-commerce completo (ainda em desenvolvimento).
 
 ## 🛠️ Tecnologias Utilizadas
 
 ![image](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![image](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![image](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
 
 ## ✨ Recursos
 - Catálogo de Produtos: Visualização de produtos com detalhes, imagens e preço.
