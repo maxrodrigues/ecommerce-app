@@ -17,3 +17,7 @@ Route::get('/cart', function () {
 Route::get('/checkout', function () {
     return view('pages.public.checkout');
 })->name('checkout');
+
+Route::get('/login', function () {
+    return view('pages.public.login');
+})->name('login');

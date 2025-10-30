@@ -46,9 +46,9 @@
                 </div>
                 <div>
                     <div>
-                        <button class="bg-primary px-6 py-2 rounded text-white font-semibold hover:bg-secondary hover:text-primary transition-colors duration-300">
+                        <a href="{{ route('login') }}" class="bg-primary px-6 py-2 rounded text-white font-semibold hover:bg-secondary hover:text-primary transition-colors duration-300">
                             Login
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
