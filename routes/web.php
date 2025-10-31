@@ -21,3 +21,9 @@ Route::get('/checkout', function () {
 Route::get('/login', function () {
     return view('pages.public.login');
 })->name('login');
+
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::get('/login', function() {
+        return view('pages.admin.login');
+    })->name('login');
+});
