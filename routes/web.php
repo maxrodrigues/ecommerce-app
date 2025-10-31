@@ -23,7 +23,10 @@ Route::get('/login', function () {
 })->name('login');
 
 Route::prefix('admin')->name('admin.')->group(function () {
-    Route::get('/login', function() {
-        return view('pages.admin.login');
-    })->name('login');
+    Route::get('/login', \App\Http\Controllers\Admin\Auth\LoginController::class)->name('login');
+    Route::post('/login', \App\Http\Controllers\Admin\Auth\ProcessLoginController::class)->name('login.process');
+
+//    Route::group([], function () {
+        Route::get('dashboard', \App\Http\Controllers\Admin\DashboardController::class)->name('dashboard');
+//    });
 });
